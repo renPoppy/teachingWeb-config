@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: teachingWeb-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/renPoppy/teachingWeb-config
+          search-paths:
+          username: 1551994462@qq.com
+          password: rfc19970119.
+
+server:
+  port: 8888
+
+
+
